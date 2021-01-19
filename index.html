@@ -349,7 +349,8 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                required="required" data-validation-required-message="Please enter your name." />
+                                required="required" data-validation-required-message="Please enter your name."
+                                name="fullName" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
@@ -360,8 +361,8 @@
                         </div>
                         <div class="form-group mb-md-0">
                             <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                required="required"
-                                data-validation-required-message="Please enter your phone number." />
+                                required="required" data-validation-required-message="Please enter your phone number."
+                                name="phoneNumber" />
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -373,11 +374,14 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send
+                    <button class="btn btn-primary btn-xl text-uppercase" 
+                    type="submit" id="sendMessage">Send
                         Message</button>
                 </div>
+                
             </form>
         </div>
     </section>
