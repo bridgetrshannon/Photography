@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
- */
 (function ($) {
   "use strict"; // Start of use strict
 
@@ -51,4 +46,36 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+  /*	portfolio of images */
+  $(document).ready(function () {
+    $(".filter-button").click(function () {
+      var value = $(this).attr("data-filter");
+
+      if (value == "all") {
+        $(".filter").show("1000");
+      } else {
+        $(".filter")
+          .not("." + value)
+          .hide("3000");
+        $(".filter")
+          .filter("." + value)
+          .show("3000");
+      }
+
+      if ($(".filter-button").removeClass("active")) {
+        $(this).removeClass("active");
+      }
+      $(this).addClass("active");
+    });
+  });
+  /*	end gallery */
+
+  $(document).ready(function () {
+    $(".fancybox").fancybox({
+      openEffect: "none",
+      closeEffect: "none",
+    });
+    console.log("did it work?");
+  });
 })(jQuery); // End of use strict
