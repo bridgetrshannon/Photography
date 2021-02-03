@@ -10575,6 +10575,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
+@media (min-width: 992px) {
+  .socialmediaDiv {
+    
+  }
+}
+
 .footer {
   text-align: center;
   font-size: 0.9rem;

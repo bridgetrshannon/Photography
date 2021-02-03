@@ -74,30 +74,17 @@ $(".filter-button").on("click", (e) => {
     }
   }
 });
-/*	end gallery */
 
-$(".filter-button").on("click", (e) => {
-  const filter = $(e.target).attr("data-filter");
-  console.log(filter);
-  const items = $(".item-content").parent();
-  for (item of items) {
-    if (filter == "") {
-      $(item).addClass("animated zoomIn faster");
-      $(item).parent().addClass("animated zoomIn faster");
-      $(item).removeClass("d-none");
-      $(item).parent().removeClass("d-none");
-
-      console.log("x");
-    } else if ($(item).attr("data-category") == filter) {
-      $(item).addClass("animated zoomIn faster");
-      $(item).parent().addClass("animated zoomIn faster");
-      $(item).removeClass("d-none");
-      $(item).parent().removeClass("d-none");
-    } else {
-      $(item).addClass("d-none");
-      $(item).parent().addClass("d-none");
-      $(item).removeClass("animated zoomIn faster");
-      $(item).parent().removeClass("animated zoomIn faster");
-    }
-  }
-});
+/* Instagram feed layout from Curator.io */
+(function () {
+  var i,
+    e,
+    d = document,
+    s = "script";
+  i = d.createElement("script");
+  i.async = 1;
+  i.src =
+    "https://cdn.curator.io/published/afbd33ff-1985-47ea-a20b-c04d8f4eb1a6.js";
+  e = d.getElementsByTagName(s)[0];
+  e.parentNode.insertBefore(i, e);
+})();
