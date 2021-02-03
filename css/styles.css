@@ -10164,7 +10164,6 @@ img::-moz-selection {
   }
 }
 
-
 @media (min-width: 768px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -10244,8 +10243,8 @@ header.masthead {
   /* background-image: url("../assets/img/portfolio/fullbodycouple.jpg"); */
   /* background-image: url("../assets/img/portfolio/baby2.jpg"); */
   /* background-image: url("../assets/img/portfolio/family3.jpg"); */
-  /* background-image: url("../assets/img/portfolio/portrait1.jpg"); */
-  background-image: url("../assets/img/portfolio/redflower.png");
+  background-image: url("../assets/img/portfolio/portrait1.jpg");
+  /* background-image: url("../assets/img/portfolio/redflower.png"); */
 
   background-repeat: no-repeat;
   background-attachment: scroll;
