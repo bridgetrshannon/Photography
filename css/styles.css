@@ -10243,8 +10243,8 @@ header.masthead {
   /* background-image: url("../assets/img/portfolio/fullbodycouple.jpg"); */
   /* background-image: url("../assets/img/portfolio/baby2.jpg"); */
   /* background-image: url("../assets/img/portfolio/family3.jpg"); */
-  background-image: url("../assets/img/portfolio/portrait1.jpg");
-  /* background-image: url("../assets/img/portfolio/redflower.png"); */
+  /* background-image: url("../assets/img/portfolio/portrait1.jpg"); */
+  background-image: url("../assets/img/portfolio/redflower.png");
 
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10514,7 +10514,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/portfolio/couple3.jpg");
+  background-image: url("../assets/img/portfolio/redflower.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10577,7 +10577,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (min-width: 992px) {
   .socialmediaDiv {
-    
+
   }
 }
 
