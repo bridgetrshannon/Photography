@@ -10149,7 +10149,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 10rem;
+    height: 8rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10163,7 +10163,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 5rem;
+    height: 6rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10185,7 +10185,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 8rem;
+    height: 7rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10199,7 +10199,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 5rem;
+    height: 6rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10222,7 +10222,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 8rem;
+    height: 5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10233,7 +10233,7 @@ img::-moz-selection {
 
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 5rem;
+    height: 4rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10585,8 +10585,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 @media (min-width: 992px) {
-  .footer {
-    
+  .socialmediaDiv {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
   }
 }
 
