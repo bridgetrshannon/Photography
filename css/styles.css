@@ -9818,6 +9818,10 @@ button.bg-dark:focus {
   font-style: italic !important;
 }
 
+.font-normal {
+  font-style: normal !important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -10535,12 +10539,12 @@ section#contact {
 }
 section#contact .section-heading {
   color: #fff;
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
 }
 
 section#contact .section-subheading {
   color: #fff;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
   font-style: normal;
 }
 
