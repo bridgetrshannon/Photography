@@ -10142,6 +10142,11 @@ img::-moz-selection {
   color: #fed136;
 }
 
+#headline {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
