@@ -76,15 +76,8 @@ $(".filter-button").on("click", (e) => {
 });
 
 /* Instagram feed layout from Curator.io */
-(function () {
-  var i,
-    e,
-    d = document,
-    s = "script";
-  i = d.createElement("script");
-  i.async = 1;
-  i.src =
-    "https://cdn.curator.io/published/afbd33ff-1985-47ea-a20b-c04d8f4eb1a6.js";
-  e = d.getElementsByTagName(s)[0];
-  e.parentNode.insertBefore(i, e);
+   (function () {
+    var i, e, d = document, s = "script"; i = d.createElement("script"); i.async = 1;
+    i.src = "https://cdn.curator.io/published/afbd33ff-1985-47ea-a20b-c04d8f4eb1a6.js";
+    e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(i, e);
 })();
